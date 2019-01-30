@@ -37,3 +37,17 @@ input {
 input:focus { 
   outline:none; 
 }
+
+#app ul {
+  align-content: center;
+  display: inline-block;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#app li {
+  /* padding-left: 15px;
+  padding-right: 15px; */
+  align-items: center;
+  display: inline-block;
+}

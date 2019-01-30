@@ -1,10 +1,10 @@
 import React from 'react';
 
-const OutputList = ({ output }) => (
+const List = ({ data }) => (
   <div className='content-outer'>
     <ul>
-      {output.map(item => (
-        <span className='content-inner'>
+      {data.map((item, i) => (
+        <span className='content-inner' key={i}>
           <br />
           <li>
             <i>{(item.date[0] === '-') ? item.date.slice(1) + ' BCE ' : item.date + ' ACE '}</i>
@@ -18,4 +18,4 @@ const OutputList = ({ output }) => (
   </div>
 )
 
-export default OutputList;
+export default List;

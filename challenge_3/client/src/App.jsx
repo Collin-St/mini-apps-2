@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+require('metro4');
 
 class App extends Component {
   constructor() {
